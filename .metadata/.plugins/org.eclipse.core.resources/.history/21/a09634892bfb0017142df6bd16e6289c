@@ -1,0 +1,9 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+	String tel = "090-1234-XXXX";
+	System.out.println(tel);
+	}
+
+}

@@ -1,0 +1,13 @@
+package if文;
+
+public class If_Sentences {
+
+	public static void main(String[] args) {
+		// if文の練習
+int a =10;
+if (a < 20){
+	System.out.println("A");
+}
+	}
+
+}

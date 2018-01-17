@@ -1,0 +1,13 @@
+package if文;
+
+public class if_sentences_2 extends If_Sentences {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		//変数a3が10未満かつ、3より大きい→Aと表示
+		int a3 =5;
+		if (a3<10 && 3<a3){
+			System.out.println("A");
+	}
+  }
