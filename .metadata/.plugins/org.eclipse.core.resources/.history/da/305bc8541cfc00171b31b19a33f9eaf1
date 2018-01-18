@@ -1,0 +1,66 @@
+
+public class roupe {
+
+	public static void main(String[] args) {
+		   for(int a=0; a<3; a++){
+			   System.out.println(a);
+		   }
+		   System.out.println("<br>");
+
+           for(int b=1; b<10; b++){
+        	   System.out.println(b);
+           }
+           System.out.println("<br>");
+
+           for (int c=3; c<10; c++){
+        	   System.out.println(c);
+           }
+           System.out.println("<br>");
+
+           for(int d=3; d<=10; d++){
+        	   System.out.println(d);
+           }
+           System.out.println("<br>");
+
+           for(int e=10; e>5; e--){
+        	   System.out.println(e);
+           }System.out.println("<br>");
+
+           for(int f=10; f>=5; f--){
+        	   System.out.println(f);
+           }System.out.println("<br>");
+
+           for(int g=1; g<10; g+=2){
+        	   System.out.println(g);
+           }System.out.println("<br>");
+
+           for(int h=1; h<10; h+=3){
+        	   System.out.println(h);
+           }System.out.println("<br>");
+
+           for(int i=10; i>1; i-=2){
+        	   System.out.println(i);
+           }System.out.println("<br>");
+
+           for(int j=10; j>1; j-=3){
+        	   System.out.println(j);
+           }System.out.println("<br>");
+
+
+           //変数kが、初期値1から10以下の間で、偶数の間は、表示をして改行する。
+           for(int k=1; k<=10; k++){
+        	   if(k%2==0){
+        		   System.out.println(k+"\n");
+        	   }
+           }System.out.println("<br>");
+
+           for(int l=0;l<3; l++){
+        	   for (int m=1; m<4; m++){
+        		   System,out.println(m);
+        	   }
+        	   System.out.println("\n");
+           }(<"\n">);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category name="カテゴリーなし">
+<launchConfiguration bookmark="false" name="HelloWorld"/>
+<launchConfiguration bookmark="false" name="If_Sentences"/>
+<launchConfiguration bookmark="false" name="Switchpackage"/>
+<launchConfiguration bookmark="false" name="Switchpackage (1)"/>
+<launchConfiguration bookmark="false" name="roupe"/>
+<launchConfiguration bookmark="false" name="sequence"/>
+</category>
+</runner>
