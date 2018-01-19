@@ -71,6 +71,13 @@ public class roupe {
            System.out.println(c);
            System.out.println("\n");
 
+           //変数pが偶数の場合「☆」 奇数の場合「★」これを変数pが0以上5以下の間、繰り返す.
+            for (int p=0; p<=5; p++){
+            	String d= p%2==0? "☆":"★";
+            	System.out.println(d);
+            }System.out.println("\n");
+
+
 	}
 
 }
