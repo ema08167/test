@@ -1,0 +1,5 @@
+//スッキリわかるJava P.323 リスト8-16のために、作ったもの
+	public class Hero {
+	String name;
+	int hp;
+	}

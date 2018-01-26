@@ -1,0 +1,9 @@
+
+public class Hero {
+	int hp;
+	String name;
+	void attack(){
+		System.out.println("勇者は攻撃した!");
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Matango {
+int hp;
+final int LEVEL=10;
+char suffix;
+void attack(Hero){
+System.out.println("ミナトを攻撃した!");
+}
+

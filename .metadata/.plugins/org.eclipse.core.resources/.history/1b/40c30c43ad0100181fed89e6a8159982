@@ -1,0 +1,13 @@
+
+public class Hero {
+int hp;
+String name;
+this.name="ミナト"
+void attack(){
+
+}
+void run(){
+
+}
+
+}

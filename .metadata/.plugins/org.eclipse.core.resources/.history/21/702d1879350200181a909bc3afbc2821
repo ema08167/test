@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+Hero h;
+h=new Hero();
+System.out.println(h.hp);
+System.out.println(h.name);
+
+
+	}
+
+}

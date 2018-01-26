@@ -1,0 +1,15 @@
+
+	public class Matango {
+		int hp;
+		final int LEVEL=10;
+		char suffix;
+		void talk(String name){
+			System.out.println("攻撃してやる" + h.getName() + "よ。");
+		}
+		void attack(String name){
+			System.out.println(name+"を攻撃した!");
+		}
+	}
+
+
+

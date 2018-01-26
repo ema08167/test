@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+Hero h=new hero();
+h.name="ミナト";
+h.hp=100;
+
+Sword sword;
+
+	}
+
+}

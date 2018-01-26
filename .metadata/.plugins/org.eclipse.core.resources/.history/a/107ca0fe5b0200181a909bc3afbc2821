@@ -1,0 +1,13 @@
+
+public class Hero {
+	private int hp;
+	private String name;
+	void bye(){
+		System.out.println("勇者は別れを告げた");
+	}
+	private void die(){
+		System.out.println(this.name + "は死んでしまった!");
+		System.out.println("GAME OVERです。");
+	}
+
+}

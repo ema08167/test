@@ -1,0 +1,10 @@
+
+	public class Main {
+
+		public static void main(String[] args) {
+	Hero h=new hero();
+	System.out.println(h.hp);
+
+		}
+
+	}
