@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int seibetsu=1;
+		int age=23;
+		System.out.println("こんにちは");
+
+	}
+
+}

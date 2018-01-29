@@ -1,7 +1,8 @@
 
-public class HelloWorld {
+	public class HelloWorld {
 
-	public static void main(String[] args) {
-int a = 10/3;
-System.out.println(a);
-}
+		public static void main(String[] args) {
+	int a = 10/3;
+	System.out.println(a);
+	}
+	}
