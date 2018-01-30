@@ -1,0 +1,4 @@
+
+		public static void email(String address,String text){
+
+		}

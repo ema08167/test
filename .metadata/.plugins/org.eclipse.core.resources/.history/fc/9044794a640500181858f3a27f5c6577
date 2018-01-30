@@ -1,0 +1,17 @@
+import comment.Zenhan;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception{
+		Zenhan.doWarsua();
+		Zenhan.doTogame();
+		comment.kouhan.callDeae();
+		comment.kouhan.showMondokoro();
+	}
+
+
+
+
+	}
+
+

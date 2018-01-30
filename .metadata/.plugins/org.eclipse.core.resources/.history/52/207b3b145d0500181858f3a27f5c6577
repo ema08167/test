@@ -1,0 +1,10 @@
+
+		public class email {
+		public String address=null;
+		public String text=null;
+
+		public email(String address,String text){
+		this.address=address;
+		this.text=text;
+		}
+  }

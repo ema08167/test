@@ -1,0 +1,12 @@
+
+public class Wizard {
+int hp;
+int mp;
+String name;
+Wand wand;
+void heal(Hero h){
+	int basePoint=10;//基本回復ポイント
+	int recoverPoint=(int)(basePoint*this.wand.power);//杖による増幅
+
+}
+}
