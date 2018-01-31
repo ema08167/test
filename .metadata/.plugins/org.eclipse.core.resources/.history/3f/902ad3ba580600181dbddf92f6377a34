@@ -1,0 +1,13 @@
+
+public class Main {
+
+public static void main(String[] args) {
+Hero h=new Hero(null);
+
+
+Matango m=new Matango();
+PoisonMatango=new PoisonMatango('A');
+
+	}
+
+}

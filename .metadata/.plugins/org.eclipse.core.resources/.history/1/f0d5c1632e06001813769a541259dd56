@@ -1,0 +1,7 @@
+
+public class PoisonMatango extends Matango{
+public void attack(){
+	System.out.println("猛毒攻撃");
+}
+
+}

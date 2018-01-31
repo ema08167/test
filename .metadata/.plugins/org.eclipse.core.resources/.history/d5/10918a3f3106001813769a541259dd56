@@ -1,0 +1,7 @@
+
+public class Hero {
+private int hp=100;
+public Hero(int hp){
+	this.hp=hp;
+}
+}
