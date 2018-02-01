@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;Form_practice/WebContent/index_2.jsp&apos; を &apos;greeting-out.jsp&apos; に変更します" description="リソース &apos;index_2.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/index_2.jsp" name="greeting-out.jsp" stamp="1517470361304" updateReferences="true"/>
+</session>
