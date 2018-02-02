@@ -9,13 +9,45 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-
   <servlet>
-  <servlet-name>Hello</servlet-name>
-  <servlet-class>HelloServlet</servlet-class>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>HelloServlet_authentic</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>Hello</servlet-name>
-  <url-pattern>HelloServlet_authentic/*</url-pattern>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/HelloServlet_authentic/HelloServlet_authentic</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/HelloServlet_authentic/WelcomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Inquiry</servlet-name>
+    <servlet-class>InquiryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Inquiry</servlet-name>
+    <url-pattern>/HelloServlet_authentic/InquiryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/HelloServlet/TestServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>MYSQL</servlet-name>
+  <servlet-class>MySQLServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MYSQL</servlet-name>
+<url-pattern>/HelloServlet_authentic/MySQLServlet</url-pattern>
+</servlet-mapping>
 </web-app>
