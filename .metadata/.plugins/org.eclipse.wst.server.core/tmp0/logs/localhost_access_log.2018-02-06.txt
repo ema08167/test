@@ -45,3 +45,5 @@
 0:0:0:0:0:0:0:1 - - [06/Feb/2018:16:46:27 +0900] "GET /WebProj2/ HTTP/1.1" 200 415
 0:0:0:0:0:0:0:1 - - [06/Feb/2018:16:46:29 +0900] "POST /WebProj2/HelloStrutsAction.action HTTP/1.1" 200 9436
 0:0:0:0:0:0:0:1 - - [06/Feb/2018:16:47:30 +0900] "GET /WebProj2/ HTTP/1.1" 200 415
+127.0.0.1 - - [06/Feb/2018:16:52:57 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:16:53:00 +0900] "POST /WebProj2/HelloStrutsAction.action HTTP/1.1" 200 196
