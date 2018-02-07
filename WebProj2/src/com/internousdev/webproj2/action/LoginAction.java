@@ -1,8 +1,8 @@
 package com.internousdev.webproj2.action;
 
-import com.opensymphony.xwork2.ActionSupport{
+import com.opensymphony.xwork2.ActionSupport;
 
-public class LoginAction {
+public class LoginAction extends ActionSupport{
 	private String username;
 	private String password;
 
@@ -26,4 +26,4 @@ public class LoginAction {
 		this.password=password;
 	}
 }
-}
+
