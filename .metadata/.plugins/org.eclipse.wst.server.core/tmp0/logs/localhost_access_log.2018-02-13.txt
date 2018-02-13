@@ -3,3 +3,9 @@
 0:0:0:0:0:0:0:1 - - [13/Feb/2018:16:48:26 +0900] "GET /WebProj4/login.jsp HTTP/1.1" 404 1055
 127.0.0.1 - - [13/Feb/2018:16:50:21 +0900] "GET / HTTP/1.1" 404 1019
 0:0:0:0:0:0:0:1 - - [13/Feb/2018:16:50:22 +0900] "GET /WebProj4/ HTTP/1.1" 404 1037
+127.0.0.1 - - [13/Feb/2018:16:51:57 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [13/Feb/2018:16:52:00 +0900] "GET /WebProj4/ HTTP/1.1" 200 993
+0:0:0:0:0:0:0:1 - - [13/Feb/2018:16:52:11 +0900] "POST /WebProj4/HelloStrutsAction.action HTTP/1.1" 200 645
+0:0:0:0:0:0:0:1 - - [13/Feb/2018:16:52:14 +0900] "POST /WebProj4/HelloStrutsAction.action HTTP/1.1" 200 645
+0:0:0:0:0:0:0:1 - - [13/Feb/2018:16:52:17 +0900] "POST /WebProj4/InquiryAction.action HTTP/1.1" 200 915
+0:0:0:0:0:0:0:1 - - [13/Feb/2018:16:52:23 +0900] "POST /WebProj4/InquiryCompleteAction.action HTTP/1.1" 200 421
