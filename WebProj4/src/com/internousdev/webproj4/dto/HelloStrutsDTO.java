@@ -10,7 +10,7 @@ package com.internousdev.webproj4.dto;
 			return userId;
 		}
 		public void setUserId(int userId){
-			this.userId=userid;
+			this.userId=userId;
 		}
 
 		public String getUserName(){
