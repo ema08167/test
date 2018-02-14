@@ -16,7 +16,7 @@ public class TestAction extends ActionSupport {
 		String ret=ERROR;
 
 		TestDAO dao=new TestDAO();
-		int conut =dao.insert(username,password);
+		int count =dao.insert(username,password);
 
 		if(count >0){
 			ret=SUCCESS;
