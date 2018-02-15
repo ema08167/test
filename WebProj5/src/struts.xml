@@ -12,7 +12,7 @@
 <result name="error">helloStrutsError.jsp</result>
 </action>
 
-<action name="WelcomeAction" class="com.internousdev.webproj5.action.WelcomeAction">
+<action name="WelcomeAction" class="com.internousdev.webproj5.action.WelcomeAction" method="execute">
 <result name="success">welcome.jsp</result>
 </action>
 
@@ -28,5 +28,10 @@
 <action name="InquiryCompleteAction" class="com.internousdev.webproj5.action.InquiryCompleteAction" method="execute" >
 <result name="success">inquiryComplete.jsp</result>
 </action>
+
+<action name="TestAction" class="com.internousdev.webproj5.action.TestAction" method="execute">
+<result name="success">test.jsp</result>
+</action>
+
 </package>
 </struts>
