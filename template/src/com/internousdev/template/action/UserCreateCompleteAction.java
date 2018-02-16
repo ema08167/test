@@ -1,9 +1,11 @@
 package com.internousdev.template.action;
 import java.sql.SQLException;
 import java.util.Map;
+
 import org.apache.struts2.interceptor.SessionAware;
-import com.opensymphony.xwork2.ActionSupport;
+
 import com.internousdev.template.dao.UserCreateCompleteDAO;
+import com.opensymphony.xwork2.ActionSupport;
 
 public class UserCreateCompleteAction extends ActionSupport implements SessionAware {
 		private String loginUserId;
@@ -27,4 +29,10 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 		public void setLoginUserId(String loginUserId){
 			this.loginUserId=loginUserId;
 	}
+
+		@Override
+		public void setSession(Map<String, Object> session) {
+			this.session = session;
+
+		}
 }
