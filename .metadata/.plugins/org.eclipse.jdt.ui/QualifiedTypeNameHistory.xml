@@ -12,4 +12,6 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.BuyItemDTO"/>
 </qualifiedTypeNameHistroy>
