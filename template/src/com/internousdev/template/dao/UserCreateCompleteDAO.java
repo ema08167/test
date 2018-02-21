@@ -19,7 +19,7 @@ import com.internousdev.template.util.DateUtil;
 				preparedStatement.setString(3, userName);
 				preparedStatement.setString(4,dateUtil.getDate());
 				preparedStatement.execute();
-			}catch(SQLException e){
+			}catch(Exception e){
 				e.printStackTrace();
 			}finally{
 				connection.close();

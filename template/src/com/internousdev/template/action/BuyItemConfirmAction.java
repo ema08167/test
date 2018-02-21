@@ -4,6 +4,7 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internousdev.template.dao.BuyItemCompleteDAO;
 import com.opensymphony.xwork2.ActionSupport;
 
 		public class BuyItemConfirmAction extends ActionSupport implements SessionAware {
